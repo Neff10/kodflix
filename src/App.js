@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <a>
-        Kodflix
+        The new Kodflix
       </a>
     </div>
   );

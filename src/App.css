@@ -5,3 +5,23 @@
 .img {
   width: 100%;
 }
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+}
+
+/* 
+
+    
+      <img src={daredevil} alt="Logo" />
+      <img src={mentalist} alt="Logo" />
+      <img src={earl} alt="Logo" />
+      <img src={shameless} alt="Logo" />
+      <img src={vikings} alt="Logo" />
+      <img src={supernatural} alt="Logo" />
+
+*/

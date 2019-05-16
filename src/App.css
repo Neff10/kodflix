@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.img {
+img {
   width: 100%;
   height: 100%;
 }
@@ -13,6 +13,15 @@
 
 .item {
   flex: 1;
-  padding: 30px;
 }
 
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    flex-direction: column;
+  }
+}
